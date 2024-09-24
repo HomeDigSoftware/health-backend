@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_page_categories",
+  "info": {
+    "singularName": "main-page-category",
+    "pluralName": "main-page-categories",
+    "displayName": "main page category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category01": {
+      "type": "enumeration",
+      "enum": [
+        "Health ",
+        "Recipes",
+        "Corrective_nutrition",
+        "Food_additives",
+        "Sports",
+        "Self_healing",
+        "Bio_nutrition",
+        "Body_Detox",
+        "Probiotics"
+      ],
+      "default": "Health "
+    },
+    "category02": {
+      "type": "enumeration",
+      "enum": [
+        "Health ",
+        "Recipes",
+        "Corrective_nutrition",
+        "Food_additives",
+        "Sports",
+        "Self_healing",
+        "Bio_nutrition",
+        "Body_Detox",
+        "Probiotics"
+      ],
+      "default": "Recipes"
+    },
+    "category03": {
+      "type": "enumeration",
+      "enum": [
+        "Health ",
+        "Recipes",
+        "Corrective_nutrition",
+        "Food_additives",
+        "Sports",
+        "Self_healing",
+        "Bio_nutrition",
+        "Body_Detox",
+        "Probiotics"
+      ]
+    }
+  }
+}

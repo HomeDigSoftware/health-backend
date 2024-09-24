@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testings",
+  "info": {
+    "singularName": "testing",
+    "pluralName": "testings",
+    "displayName": "testing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first": {
+      "type": "component",
+      "repeatable": true,
+      "component": "post-section.post-sec"
+    },
+    "sec_002": {
+      "type": "component",
+      "repeatable": true,
+      "component": "post-section.post-sec"
+    },
+    "sec_003": {
+      "type": "component",
+      "repeatable": true,
+      "component": "post-section.post-sec"
+    },
+    "sec_004": {
+      "type": "component",
+      "repeatable": true,
+      "component": "post-section.post-sec"
+    }
+  }
+}

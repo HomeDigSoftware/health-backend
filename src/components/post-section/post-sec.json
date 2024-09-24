@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_post_section_post_secs",
+  "info": {
+    "displayName": "post_sec",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "post_sec": {
+      "type": "blocks"
+    },
+    "post_pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

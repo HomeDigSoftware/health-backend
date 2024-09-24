@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "comp_posts",
+  "info": {
+    "singularName": "comp-post",
+    "pluralName": "comp-posts",
+    "displayName": "comp_post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "the_post_sec": {
+      "displayName": "post_sec",
+      "type": "component",
+      "repeatable": true,
+      "component": "post-section.post-sec"
+    }
+  }
+}

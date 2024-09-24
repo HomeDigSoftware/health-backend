@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_navs",
+  "info": {
+    "singularName": "header-nav",
+    "pluralName": "header-navs",
+    "displayName": "header_nav",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slogan": {
+      "type": "string",
+      "required": true,
+      "default": "ענת ידע = בריאות"
+    },
+    "profile_pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
